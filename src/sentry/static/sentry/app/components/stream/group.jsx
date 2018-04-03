@@ -135,7 +135,7 @@ const StreamGroup = createReactClass({
         <Flex w={50} mx={2} justify="flex-end">
           <Count value={data.userCount} />
         </Flex>
-        <Box w={50} mx={2}>
+        <Box w={50} mx={2} className="hidden-sm">
           <StyledAssigneeSelector id={data.id} />
         </Box>
       </Group>
