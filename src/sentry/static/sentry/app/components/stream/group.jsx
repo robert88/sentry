@@ -91,8 +91,6 @@ const StreamGroup = createReactClass({
     const {data} = this.state;
     const {id, orgId, projectId, query} = this.props;
 
-    // Todo(ckj): Implement resolved and hasSeen state
-
     return (
       <Group onClick={this.toggleSelect} py={1}>
         <Tooltip title={`Error level: ${capitalize(data.level)}`}>
