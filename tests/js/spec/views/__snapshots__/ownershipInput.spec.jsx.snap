@@ -34,6 +34,7 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
   transition: border 0.1s linear;
   resize: vertical;
   padding: 0.5em;
+  line-height: 19px;
   margin-right: 5px;
 }
 
@@ -48,6 +49,7 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
   transition: border 0.1s linear;
   resize: vertical;
   padding: 0.5em;
+  line-height: 19px;
   margin-right: 5px;
 }
 
@@ -62,6 +64,7 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
   transition: border 0.1s linear;
   resize: vertical;
   padding: 0.5em;
+  line-height: 19px;
   margin-right: 5px;
 }
 
@@ -76,6 +79,7 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
   transition: border 0.1s linear;
   resize: vertical;
   padding: 0.5em;
+  line-height: 19px;
   margin-right: 5px;
 }
 
