@@ -225,6 +225,8 @@ def browser(request, percy, live_server):
         options.add_argument('headless')
         options.add_argument('disable-gpu')
         options.add_argument('window-size={}'.format(window_size))
+        options.add_argument('verbose')
+        options.add_argument('log-path={}'.format('/tmp/chromedriver.log'))
         chrome_path = request.config.getoption('chrome_path')
         if chrome_path:
             options.binary_location = chrome_path
